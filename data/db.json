@@ -1,0 +1,224 @@
+{
+  "subjects": [
+    {
+      "slug": "web-nang-cao",
+      "code": "INT1434",
+      "name": "Lập trình Web Nâng cao",
+      "credits": 3,
+      "lecturer": "TS. Trần Văn A",
+      "description": "Nghiên cứu các mô hình Rendering (SSG, ISR, SSR), Authentication, Middleware, App Router và kiến trúc Next.js hiện đại.",
+      "color": "#3b82f6"
+    },
+    {
+      "slug": "tri-tue-nhan-tao",
+      "code": "INT1410",
+      "name": "Trí tuệ Nhân tạo",
+      "credits": 3,
+      "lecturer": "PGS.TS. Lê Thị B",
+      "description": "Các giải thuật tìm kiếm heuristic, tối ưu hóa toàn cục, trò chơi đối kháng, học máy và mạng nơ-ron cơ bản.",
+      "color": "#8b5cf6"
+    },
+    {
+      "slug": "he-dieu-hanh",
+      "code": "INT1332",
+      "name": "Hệ điều hành",
+      "credits": 3,
+      "lecturer": "TS. Hoàng Minh C",
+      "description": "Quản lý tiến trình, luồng, đồng bộ hóa, bộ nhớ ảo, lập lịch CPU và thiết kế hệ thống tập tin.",
+      "color": "#10b981"
+    },
+    {
+      "slug": "an-toan-thong-tin",
+      "code": "INT1425",
+      "name": "An toàn Thông tin",
+      "credits": 3,
+      "lecturer": "ThS. Phạm Ngọc D",
+      "description": "Mật mã học, an toàn ứng dụng web, phân tích lỗ hổng, kiểm thử xâm nhập và mô hình phòng thủ theo chiều sâu.",
+      "color": "#f59e0b"
+    }
+  ],
+  "deadlines": [
+    {
+      "id": "1",
+      "title": "Bài tập lớn Buổi 7 - Rendering & Component SSG/ISR/SSR",
+      "subjectSlug": "web-nang-cao",
+      "subjectName": "Lập trình Web Nâng cao",
+      "description": "Hoàn thiện các route theo chiến lược SSG, ISR và SSR. Tối ưu Server Component và Client Component đúng nghiệp vụ.",
+      "dueDate": "2026-11-05T23:59:00+07:00",
+      "priority": "high",
+      "submissionLink": "https://classroom.google.com/c/ptit-web-adv-b7",
+      "maxScore": 10,
+      "completedUsers": [
+        "2"
+      ],
+      "createdAt": "2026-10-20T10:00:00+07:00"
+    },
+    {
+      "id": "2",
+      "title": "Bài tập lớn Buổi 8 - NextAuth & Phân quyền Ma trận",
+      "subjectSlug": "web-nang-cao",
+      "subjectName": "Lập trình Web Nâng cao",
+      "description": "Tích hợp NextAuth credentials JWT, phân quyền ma trận can(role, action), Middleware và defense-in-depth tại Server Action.",
+      "dueDate": "2026-11-12T23:59:00+07:00",
+      "priority": "high",
+      "submissionLink": "https://classroom.google.com/c/ptit-web-adv-b8",
+      "maxScore": 10,
+      "completedUsers": [],
+      "createdAt": "2026-10-21T11:00:00+07:00"
+    },
+    {
+      "id": "3",
+      "title": "Nộp đề cương Đồ án cuối kỳ Web App",
+      "subjectSlug": "web-nang-cao",
+      "subjectName": "Lập trình Web Nâng cao",
+      "description": "Báo cáo thuyết minh kiến trúc phần mềm, sơ đồ database, wireframe UI/UX và kế hoạch phân công công việc các thành viên.",
+      "dueDate": "2026-11-20T23:59:00+07:00",
+      "priority": "medium",
+      "submissionLink": "https://forms.gle/ptit-web-proposal",
+      "maxScore": 10,
+      "completedUsers": [],
+      "createdAt": "2026-10-22T09:30:00+07:00"
+    },
+    {
+      "id": "4",
+      "title": "Thực hành 1: Cài đặt giải thuật A* tìm đường đi trong mê cung",
+      "subjectSlug": "tri-tue-nhan-tao",
+      "subjectName": "Trí tuệ Nhân tạo",
+      "description": "Viết chương trình bằng Python hoặc C++ giải bài toán Pathfinding với Manhattan / Euclidean distance heuristic.",
+      "dueDate": "2026-11-03T23:59:00+07:00",
+      "priority": "medium",
+      "submissionLink": "https://github.com/ptit-ai-assignments/lab1",
+      "maxScore": 10,
+      "completedUsers": [
+        "2"
+      ],
+      "createdAt": "2026-10-18T14:00:00+07:00"
+    },
+    {
+      "id": "5",
+      "title": "Thực hành 2: MiniMax kết hợp Alpha-Beta Pruning cờ Caro",
+      "subjectSlug": "tri-tue-nhan-tao",
+      "subjectName": "Trí tuệ Nhân tạo",
+      "description": "Thiết kế bot chơi cờ Caro bàn cờ 10x10 hoặc 15x15 với độ sâu tìm kiếm tối thiểu 4 nước và thời gian phản hồi dưới 2 giây.",
+      "dueDate": "2026-11-15T23:59:00+07:00",
+      "priority": "high",
+      "submissionLink": "https://github.com/ptit-ai-assignments/lab2",
+      "maxScore": 10,
+      "completedUsers": [],
+      "createdAt": "2026-10-23T08:00:00+07:00"
+    },
+    {
+      "id": "6",
+      "title": "Báo cáo sơ kết Đồ án Nhận diện khuôn mặt với PyTorch",
+      "subjectSlug": "tri-tue-nhan-tao",
+      "subjectName": "Trí tuệ Nhân tạo",
+      "description": "Huấn luyện mô hình ResNet/MobileNet trên tập dữ liệu học sinh sinh viên PTIT, đánh giá độ chính xác (Precision, Recall, F1-Score).",
+      "dueDate": "2026-11-28T23:59:00+07:00",
+      "priority": "medium",
+      "submissionLink": "https://drive.google.com/drive/folders/ptit-ai-face",
+      "maxScore": 10,
+      "completedUsers": [],
+      "createdAt": "2026-10-24T16:20:00+07:00"
+    },
+    {
+      "id": "7",
+      "title": "Bài tập Đồng bộ luồng: Bài toán Dining Philosophers",
+      "subjectSlug": "he-dieu-hanh",
+      "subjectName": "Hệ điều hành",
+      "description": "Giải quyết tình trạng Deadlock và Starvation sử dụng Mutex, Semaphore hoặc Monitor trong ngôn ngữ C/C++ trên Linux.",
+      "dueDate": "2026-11-02T23:59:00+07:00",
+      "priority": "high",
+      "submissionLink": "https://teams.microsoft.com/l/assignment/ptit-os-dining",
+      "maxScore": 10,
+      "completedUsers": [
+        "2"
+      ],
+      "createdAt": "2026-10-15T10:15:00+07:00"
+    },
+    {
+      "id": "8",
+      "title": "Mô phỏng thuật toán thay thế trang bộ nhớ ảo LRU và FIFO",
+      "subjectSlug": "he-dieu-hanh",
+      "subjectName": "Hệ điều hành",
+      "description": "Viết chương trình đo tỷ lệ Page Fault với chuỗi tham chiếu trang cho trước, so sánh hiệu năng giữa thuật toán FIFO, LRU và OPT.",
+      "dueDate": "2026-11-10T23:59:00+07:00",
+      "priority": "medium",
+      "submissionLink": "https://teams.microsoft.com/l/assignment/ptit-os-pagefault",
+      "maxScore": 10,
+      "completedUsers": [],
+      "createdAt": "2026-10-21T15:00:00+07:00"
+    },
+    {
+      "id": "9",
+      "title": "Đồ án Thực hành: Xây dựng hệ thống tập tin đơn giản (MiniFS)",
+      "subjectSlug": "he-dieu-hanh",
+      "subjectName": "Hệ điều hành",
+      "description": "Thiết kế Superblock, Inode table, Data blocks và các câu lệnh mkdir, ls, touch, write, read mô phỏng tệp ảo trong tệp nhị phân.",
+      "dueDate": "2026-11-25T23:59:00+07:00",
+      "priority": "high",
+      "submissionLink": "https://teams.microsoft.com/l/assignment/ptit-os-minifs",
+      "maxScore": 10,
+      "completedUsers": [],
+      "createdAt": "2026-10-25T11:45:00+07:00"
+    },
+    {
+      "id": "10",
+      "title": "Lab 1: Khai thác lỗ hổng SQL Injection và Phòng thủ Prepared Statement",
+      "subjectSlug": "an-toan-thong-tin",
+      "subjectName": "An toàn Thông tin",
+      "description": "Thực hiện tấn công Union-based, Error-based và Blind SQLi trên môi trường DVWA/PortSwigger, viết báo cáo PoC và cách vá lỗi.",
+      "dueDate": "2026-10-31T23:59:00+07:00",
+      "priority": "high",
+      "submissionLink": "https://cybersec.ptit.edu.vn/submissions/lab1",
+      "maxScore": 10,
+      "completedUsers": [
+        "2"
+      ],
+      "createdAt": "2026-10-16T13:00:00+07:00"
+    },
+    {
+      "id": "11",
+      "title": "Lab 2: Phân tích mã độc cơ bản bằng Ghidra và Wireshark",
+      "subjectSlug": "an-toan-thong-tin",
+      "subjectName": "An toàn Thông tin",
+      "description": "Phân tích tĩnh và phân tích động mẫu PE executable trong sandbox: giải mã chuỗi string, tìm kiếm C2 domain và trích xuất IOC.",
+      "dueDate": "2026-11-18T23:59:00+07:00",
+      "priority": "medium",
+      "submissionLink": "https://cybersec.ptit.edu.vn/submissions/lab2",
+      "maxScore": 10,
+      "completedUsers": [],
+      "createdAt": "2026-10-22T14:30:00+07:00"
+    },
+    {
+      "id": "12",
+      "title": "Báo cáo Chuyên đề: Triển khai TLS 1.3 và hạ tầng chứng chỉ số PKI nội bộ",
+      "subjectSlug": "an-toan-thong-tin",
+      "subjectName": "An toàn Thông tin",
+      "description": "Cấu hình Root CA, Intermediate CA và cấp phát chứng chỉ X.509 cho Web Server NGINX, kiểm tra Handshake và Perfect Forward Secrecy.",
+      "dueDate": "2026-12-02T23:59:00+07:00",
+      "priority": "low",
+      "submissionLink": "https://cybersec.ptit.edu.vn/submissions/pki-report",
+      "maxScore": 10,
+      "completedUsers": [],
+      "createdAt": "2026-10-26T09:00:00+07:00"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@ptit.edu.vn",
+      "password": "admin123",
+      "name": "Lê Văn Đạt",
+      "role": "admin",
+      "classCode": "B23DCCC040"
+    },
+    {
+      "id": "2",
+      "email": "sv@ptit.edu.vn",
+      "password": "sv123456",
+      "name": "Nguyễn Thế Dương",
+      "role": "user",
+      "classCode": "B23DCCC045"
+    }
+  ]
+}
